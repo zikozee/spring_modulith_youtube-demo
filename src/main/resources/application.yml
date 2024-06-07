@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: modulith-demo
+
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: never
